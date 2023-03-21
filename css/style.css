@@ -267,6 +267,20 @@ body {
   aspect-ratio: 3/3;
 }
 
+.produk .row .produk-card img,
+.menu .row .menu-card img {
+}
+
+#menu .img-zoom,
+#produk .img-zoom {
+  transition: transform 0.2s;
+}
+
+#menu .img-zoom:hover,
+#produk .img-zoom:hover {
+  transform: scale(1.5);
+}
+
 .produk .row .produk-card .produk-card-title,
 .menu .row .menu-card .menu-card-title {
   margin: 1rem auto 0.5rem;
