@@ -497,4 +497,8 @@ footer .credit a {
   .produk p {
     text-align: left;
   }
+  .hero .content p {
+    /* padding: 1.4rem 7%; */
+    max-width: 30rem;
+  }
 }
